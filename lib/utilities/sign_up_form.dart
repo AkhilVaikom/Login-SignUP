@@ -18,7 +18,17 @@ class SignUpForm extends StatelessWidget {
             const Spacer(),
             TextFormField(
               decoration: const InputDecoration(
+                counterStyle: text,                hintStyle: text,
                 hintText: "Asha ID",
+                  contentPadding: EdgeInsets.only(
+                        left: 14.0, bottom: 6.0, top: 8.0),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.white)
+                    ),
+                    // enabledBorder: UnderlineInputBorder(
+                    //   borderSide: BorderSide(color: Colors.grey),
+                    //   borderRadius: BorderRadius.circular(10.0),
+                    // ),
               ),
             ),
             Padding(
